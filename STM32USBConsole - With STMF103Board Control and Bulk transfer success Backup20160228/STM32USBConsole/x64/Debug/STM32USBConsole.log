@@ -1,0 +1,19 @@
+﻿生成启动时间为 2016/8/5 15:22:52。
+     1>项目“C:\Users\DyleRays\Documents\Visual Studio 2013\Projects\STM32USBConsole - With STMF103Board Control and Bulk transfer success Backup20160228\STM32USBConsole\STM32USBConsole.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Device.cpp STM32USBConsole.cpp
+         Device.cpp
+         STM32USBConsole.cpp
+     1>STM32USBConsole.cpp(41): warning C4313: “printf”: 格式字符串中的“%x”与“HANDLE”类型的参数 1 冲突
+     1>STM32USBConsole.cpp(48): warning C4313: “printf”: 格式字符串中的“%x”与“HANDLE”类型的参数 1 冲突
+     1>STM32USBConsole.cpp(57): warning C4313: “printf”: 格式字符串中的“%x”与“WINUSB_INTERFACE_HANDLE”类型的参数 1 冲突
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DyleRays\Documents\Visual Studio 2013\Projects\STM32USBConsole - With STMF103Board Control and Bulk transfer success Backup20160228\x64\Debug\STM32USBConsole.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winusb.lib setupapi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\DyleRays\Documents\Visual Studio 2013\Projects\STM32USBConsole - With STMF103Board Control and Bulk transfer success Backup20160228\x64\Debug\STM32USBConsole.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DyleRays\Documents\Visual Studio 2013\Projects\STM32USBConsole - With STMF103Board Control and Bulk transfer success Backup20160228\x64\Debug\STM32USBConsole.lib" /MACHINE:X64 x64\Debug\Device.obj
+         x64\Debug\STM32USBConsole.obj
+         STM32USBConsole.vcxproj -> C:\Users\DyleRays\Documents\Visual Studio 2013\Projects\STM32USBConsole - With STMF103Board Control and Bulk transfer success Backup20160228\x64\Debug\STM32USBConsole.exe
+     1>已完成生成项目“C:\Users\DyleRays\Documents\Visual Studio 2013\Projects\STM32USBConsole - With STMF103Board Control and Bulk transfer success Backup20160228\STM32USBConsole\STM32USBConsole.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.81

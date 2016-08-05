@@ -1,0 +1,17 @@
+﻿生成启动时间为 2016/2/26 10:28:10。
+     1>项目“C:\Users\DyleRays\documents\visual studio 2013\Projects\STM32USBConsole\STM32USBConsole\STM32USBConsole.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DyleRays\documents\visual studio 2013\Projects\STM32USBConsole\Debug\STM32USBConsole.exe" /INCREMENTAL /NOLOGO /WX kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DyleRays\documents\visual studio 2013\Projects\STM32USBConsole\Debug\STM32USBConsole.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DyleRays\documents\visual studio 2013\Projects\STM32USBConsole\Debug\STM32USBConsole.lib" /MACHINE:X86 /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 Debug\Device.obj
+         Debug\STM32USBConsole.obj
+     1>Device.obj : error LNK2019: 无法解析的外部符号 _WinUsb_Initialize@8，该符号在函数 "long __stdcall OpenDevice(struct _DEVICE_DATA *,int *)" (?OpenDevice@@YGJPAU_DEVICE_DATA@@PAH@Z) 中被引用
+     1>Device.obj : error LNK2019: 无法解析的外部符号 _WinUsb_Free@4，该符号在函数 "void __stdcall CloseDevice(struct _DEVICE_DATA *)" (?CloseDevice@@YGXPAU_DEVICE_DATA@@@Z) 中被引用
+     1>Device.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiDestroyDeviceInfoList@4，该符号在函数 "long __stdcall RetrieveDevicePath(unsigned short *,unsigned long,int *)" (?RetrieveDevicePath@@YGJPAGKPAH@Z) 中被引用
+     1>Device.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiEnumDeviceInterfaces@20，该符号在函数 "long __stdcall RetrieveDevicePath(unsigned short *,unsigned long,int *)" (?RetrieveDevicePath@@YGJPAGKPAH@Z) 中被引用
+     1>Device.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiGetDeviceInterfaceDetailW@24，该符号在函数 "long __stdcall RetrieveDevicePath(unsigned short *,unsigned long,int *)" (?RetrieveDevicePath@@YGJPAGKPAH@Z) 中被引用
+     1>Device.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiGetClassDevsW@16，该符号在函数 "long __stdcall RetrieveDevicePath(unsigned short *,unsigned long,int *)" (?RetrieveDevicePath@@YGJPAGKPAH@Z) 中被引用
+     1>C:\Users\DyleRays\documents\visual studio 2013\Projects\STM32USBConsole\Debug\STM32USBConsole.exe : fatal error LNK1120: 6 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\DyleRays\documents\visual studio 2013\Projects\STM32USBConsole\STM32USBConsole\STM32USBConsole.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.09
